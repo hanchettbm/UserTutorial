@@ -93,4 +93,4 @@ Modify your code so that any value input by a user will be the value in the stac
 ## **Algortithmic Efficency (Big O Notation):** 
 Let's take a look at performance, think of the performance what of a stack would be. Looking at things simply, if we look at just the append and pop functions by themselves, they only have to do that action once, you don't have to traverse the whole stack to add something to the end, and you dont have to traverse it to pop somehting off the end either. Both of these functions are **O(1)** efficent in Big O Notation, meaining it takes one operation to complete. Now we have to look at the big picture, what happens if we want to pop off the first item we added to the list? This requires us having to pop off each value before it, for the length of the stack. That means this operation, of repeating a pop, gives the efficency of **O(n)**, meaning it will take 1 operation times the length of the list, so the size of the list (our n in Big O Notation) determines how much work our program needs to do. The work required is based on the length of the stack. 
 
-## [RETURN TO MAIN PAGE](0-Welcome.md)
+## [RETURN TO MAIN PAGE](README.md)
